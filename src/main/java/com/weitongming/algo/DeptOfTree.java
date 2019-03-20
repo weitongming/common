@@ -6,6 +6,8 @@ package com.weitongming.algo;
  * @date Created on 2019/3/19.
  */
 public class DeptOfTree {
+
+
     public int TreeDepth(TreeNode pRoot)
     {
         if(pRoot == null){
@@ -18,7 +20,6 @@ public class DeptOfTree {
 
 
     private class TreeNode{
-
         int value ;
         TreeNode left ;
         TreeNode right ;
