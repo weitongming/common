@@ -1,5 +1,7 @@
 package com.weitongming.algo;
 
+import org.junit.Test;
+
 /**
  * @author tim.wei
  * @description汇编语言中有一种移位指令叫做循环左移（ROL），现在有个简单的任务，
@@ -8,6 +10,19 @@ package com.weitongming.algo;
  * @date Created on 2019/3/21.
  */
 public class LeftRotateString {
+
+
+    @Test
+    public void testNull(){
+        LeftRotateString("" ,1);
+    }
+
+    @Test
+    public void testNormal(){
+        System.out.println(LeftRotateString("111222333" ,3));
+        System.out.println(LeftRotateString("123444555" ,3));
+    }
+
 
     public String LeftRotateString(String str,int n) {
         if (str==null || str.length() == 0){
