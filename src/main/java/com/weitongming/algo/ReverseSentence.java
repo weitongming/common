@@ -24,7 +24,7 @@ public class ReverseSentence {
     }
 
 
-
+    // 使用外部空间
     public String ReverseSentence(String str) {
         if (str.trim().equalsIgnoreCase("")){
             return str;
@@ -39,5 +39,7 @@ public class ReverseSentence {
         }
         return stringBuilder.toString();
     }
+
+
 
 }
