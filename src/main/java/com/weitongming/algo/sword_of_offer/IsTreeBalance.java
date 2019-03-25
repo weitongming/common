@@ -1,4 +1,4 @@
-package com.weitongming.algo;
+package com.weitongming.algo.sword_of_offer;
 
 
 /**
